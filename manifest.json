@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Google News/Images/Video Blocker",
+    "version": "1.0",
+  
+    "description": "Blocks Google News, Video, and Images for those prone to easy distraction",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.google.com/*", "*://google.com/*"],
+        "js": ["blocker.js"]
+      }
+    ],
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "michaelshneck123@gmail.com"
+      }
+    }
+}
+  
