@@ -1,7 +1,8 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Google News/Images/Video Blocker",
     "version": "1.0",
+    "run_at": "document_start",
   
     "description": "Blocks Google News, Video, and Images for those prone to easy distraction",
   
@@ -16,10 +17,9 @@
       }
     ],
 
+
     "browser_specific_settings": {
-      "gecko": {
-        "id": "michaelshneck123@gmail.com"
-      }
+      "update_url": "https://github.com/alig1882/google-distraction-blocker/blob/master/package.zip"
     }
 }
   
